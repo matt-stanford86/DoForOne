@@ -1,0 +1,56 @@
+baseURL: http://127.0.0.1:1313
+languageCode: en-us
+title: Do For One
+theme: "PaperMod"
+# Sample config: https://github.com/adityatelange/hugo-PaperMod/wiki/Installation
+
+params:
+  title: Do For One, Inc
+  author: Do For One, Inc
+  description: "Do For One, Inc is a non-profit organization dedicated to combatting poverty by providing basic aid, educational, and leadership opportunities to children in impoverished nations in the name of Jesus Christ."
+  keywords: [Non-Profit, Charity]
+  defaultTheme: light
+  disableThemeToggle: true
+  env: production
+
+  profileMode:
+    enabled: true
+    title: "Do For One"
+    subtitle: "... what you wish you could do for everyone."
+    #imageUrl: "/img/image.webp"
+    #imageTitle: """
+    # imageWidth: 672
+    # imageHeight: 142
+    # images: ["/img/image.webp"]
+    # buttons:
+    #   - name: About Us
+    #     url: "/about"
+    #   - name: Contact Us
+    #     url: "/contact"
+
+  # label:
+  #   icon: "/img/favicons/apple-touch-icon.png"
+
+  # socialIcons:
+  #   - name: email
+  #     url: mailto:
+
+  assets:
+    # disableHLJS: true # to disable highlight.js
+    # disableFingerprinting: true
+    # favicon: "/img/favicons/favicon.ico"
+    # favicon16x16: "/img/favicons/favicon-16x16.png"
+    # favicon32x32: "/img/favicons/favicon-32x32.png"
+    # apple_touch_icon: "/img/favicons/apple-touch-icon.png"
+    # safari_pinned_tab: "/img/favicons/safari-pinned-tab.svg"
+    theme_color: "#ffffff"
+# menu:
+#   main:
+#     - identifier: about
+#       name: About Us
+#       url: /about/
+#       weight: 10
+#     - identifier: contact
+#       name: Contact Us
+#       url: /contact/
+#       weight: 20
