@@ -1,0 +1,5 @@
+services:
+  build:
+    image: hugomods/hugo:latest
+    volumes:
+      - "../doforone:/src"
