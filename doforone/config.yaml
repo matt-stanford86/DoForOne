@@ -9,31 +9,31 @@ params:
   author: Do For One, Inc
   description: "Do For One, Inc is a non-profit organization dedicated to combatting poverty by providing basic aid, educational, and leadership opportunities to children in impoverished nations in the name of Jesus Christ."
   keywords: [Non-Profit, Charity]
-  defaultTheme: light
-  disableThemeToggle: true
+  defaultTheme: auto
+  disableThemeToggle: false
   env: production
 
   profileMode:
     enabled: true
     title: "Do For One"
-    subtitle: "... what you wish you could do for everyone."
+    subtitle: "...what you wish you could do for everyone."
     #imageUrl: "/img/image.webp"
     #imageTitle: """
     # imageWidth: 672
     # imageHeight: 142
     # images: ["/img/image.webp"]
-    # buttons:
-    #   - name: About Us
-    #     url: "/about"
-    #   - name: Contact Us
-    #     url: "/contact"
+    buttons:
+      - name: About Us
+        url: "/about"
+      # - name: Blog
+      #   url: "/posts"
 
   # label:
   #   icon: "/img/favicons/apple-touch-icon.png"
 
   # socialIcons:
   #   - name: email
-  #     url: mailto:
+  #     url: mailto:email@example.com
 
   assets:
     # disableHLJS: true # to disable highlight.js
@@ -44,13 +44,17 @@ params:
     # apple_touch_icon: "/img/favicons/apple-touch-icon.png"
     # safari_pinned_tab: "/img/favicons/safari-pinned-tab.svg"
     theme_color: "#ffffff"
-# menu:
-#   main:
-#     - identifier: about
-#       name: About Us
-#       url: /about/
-#       weight: 10
+menu:
+  main:
+    - identifier: about
+      name: About Us
+      url: /about/
+      weight: 10
 #     - identifier: contact
 #       name: Contact Us
 #       url: /contact/
 #       weight: 20
+    # - identifier: blog
+    #   name: Blog
+    #   url: /posts/
+    #   weight: 30
